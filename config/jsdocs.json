@@ -1,0 +1,24 @@
+{
+    "opts": {
+      "access": "all",
+      "destination": "./docs/",
+      "tutorials": "./tutorials",
+      "recurse": true
+    },
+    "plugins": [
+      "plugins/markdown"
+    ],
+    "templates": {
+      "path": "ink-docstrap",
+      "systemName": "Lesmateriaal Node.js",
+      "footer": "Node.js (I. Cazemier)",
+      "navType": "inline",
+      "theme": "superhero",
+      "linenums": true,
+      "collapseSymbols": false,
+      "inverseNav": false,
+      "outputSourceFiles": true,
+      "syntaxTheme": "dark",
+      "includeDate": true
+    }
+  }
